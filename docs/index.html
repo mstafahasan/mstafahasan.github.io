@@ -17,7 +17,39 @@
 	<link rel="stylesheet" href="assets/css/mostafahassan.css">
      <!-- FileSaver.js library -->
      <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+     <style>
+        .portfolio-item {
+            margin-bottom: 20px;
+        }
+        .portfolio-image {
+            width: 100%;
+            height: auto;
+        }
 
+        /* Default styles for desktop */
+        body {
+            font-size: 16px;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Styles for tablets and larger phones */
+        @media (max-width: 768px) {
+            body {
+                font-size: 14px;
+            }
+        }
+
+        /* Styles for small phones */
+        @media (max-width: 576px) {
+            body {
+                font-size: 12px;
+            }
+            .portfolio-item {
+                margin-bottom: 15px;
+            }
+        }
+    </style>
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
     <a href="components.html" class="btn btn-primary btn-component" data-spy="affix" data-offset-top="600"><i class="ti-shift-left-alt"></i> Components</a>
@@ -872,6 +904,9 @@
 
     <!-- mostafahassan js -->
     <script src="assets/js/mostafahassan.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 
 </body>
