@@ -1,17 +1,36 @@
 @charset "UTF-8";
-/*!
-=========================================================
-* JohnDoe Landing page
-=========================================================
 
-* Copyright: 2019 DevCRUD (https://devcrud.com)
-* Licensed: (https://devcrud.com/licenses)
-* Coded by www.devcrud.com
+.portfolio-item {
+  margin-bottom: 20px;
+}
+.portfolio-image {
+  width: 100%;
+  height: auto;
+}
 
-=========================================================
+/* Default styles for desktop */
+body {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
 
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
+/* Styles for tablets and larger phones */
+@media (max-width: 768px) {
+  body {
+      font-size: 14px;
+  }
+}
+
+/* Styles for small phones */
+@media (max-width: 576px) {
+  body {
+      font-size: 12px;
+  }
+  .portfolio-item {
+      margin-bottom: 15px;
+  }
+}
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i&display=swap");
 :root {
   --blue: #79A9F5;
