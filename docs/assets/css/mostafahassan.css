@@ -11062,6 +11062,8 @@ p {
 
 .btn-component.affix {
   right: -115px;
+  display:none;
+
 }
 
 .btn-component i {
